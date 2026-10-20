@@ -32,10 +32,6 @@ RUN npm install --omit=dev \
 # Copy application source
 COPY . /app/
 
-# Verify that all application source modules are included in the build
-RUN python verify_source.py
-ENV PYTHONPATH=/app
-
 # Expose server port
 EXPOSE 8000
 

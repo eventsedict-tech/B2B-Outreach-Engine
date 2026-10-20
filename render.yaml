@@ -14,7 +14,7 @@ services:
       - key: DEFAULT_TIMEZONE
         value: Asia/Kolkata
       - key: WHATSAPP_VERIFY_TOKEN
-        sync: false
+        value: NCR_WHATSAPP_VERIFY_TOKEN_2026
       - key: EMAIL_DAILY_PILOT_LIMIT
         value: "25"
       - key: WHATSAPP_DAILY_PILOT_LIMIT
